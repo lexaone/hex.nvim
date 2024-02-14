@@ -7,7 +7,7 @@ M.cfg = {
   dump_cmd = 'xxd -g 1 -u',
   assemble_cmd = 'xxd -r',
   is_file_binary_pre_read = function()
-    binary_ext = { 'out', 'bin', 'png', 'jpg', 'jpeg', 'exe', 'dll' }
+    binary_ext = { 'bin', 'png', 'jpg', 'jpeg', 'exe', 'dll' }
     -- only work on normal buffers
     if vim.bo.ft ~= "" then return false end
     -- check -b flag
