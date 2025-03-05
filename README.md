@@ -1,3 +1,7 @@
+# lexaone NOTE: 
+Just small patch to original plugin to exclude automagic conversion to hex view for .out files.
+My .out files are text output!
+
 # Hex.nvim
 ![Lua](https://img.shields.io/badge/Made%20with%20Lua-blueviolet.svg?style=for-the-badge&logo=lua)
 
